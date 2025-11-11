@@ -1,0 +1,1 @@
+export interface Route{ id:string; lineId:string; direction:'ida'|'vuelta'; stopIds:string[]; lengthKm?:number; approxDurationMin?:number; notes?:string; }
